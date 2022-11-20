@@ -1,0 +1,555 @@
+body {
+  background-color: #2f3336;
+  color: white;
+  margin: 0;
+  width: 100%;
+  font-size: 17px;
+}
+
+/* stylizacja przyklejania się menu do góry strony */
+.sticky {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+body img {
+  border-radius: 10px;
+}
+
+/* stylizacja wszystkich h1 */
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* stylizacja wszystkich h2 */
+h2 {
+  font-size: 44px;
+  font-weight: 400;
+  color: #39a5f1;
+  margin-bottom: 20px;
+}
+
+/* stylizacja wszystkich h3 */
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #39a5f1;
+}
+
+/* stylizacja paska menu */
+.nav {
+  background-color: #1c74b3;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  margin-left: 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/* stylizacja listy opcji paska menu */
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  max-height: 40px;
+  line-height: 200%;
+}
+
+/* stylizacja opcji w menu */
+.nav ul>li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px dashed #0a2b42;
+}
+
+/* stylizacja pierwszej opcji w menu */
+.nav ul>li:first-child {
+  border-left: 1px dashed #0a2b42;
+}
+
+/* stylizacja linków w liście */
+.nav ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  max-height: 40px;
+  line-height: 200%;
+}
+
+/* zdarzenie hover w liście opcji */
+.nav ul a:hover {
+  background-color: #115b91;
+  color: #fff;
+}
+
+/* stylizacja pojemnika z artykułami w index */
+.categories {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  text-align: center;
+  padding: 0px;
+}
+
+/* stylizacja zdjęć div artykułów*/
+.author img {
+  width: 250px;
+  height: 200px;
+}
+
+/* stylizacja div w index*/
+.author {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* stylizacja linków w div index */
+.author a {
+  opacity: 0.8;
+}
+
+.author a:hover {
+  opacity: 9;
+}
+
+/* stylizacja kafelków w index */
+figure {
+  margin: 8px;
+  padding: 0;
+}
+
+/* stylizacja podpisów pod kafelkami w index */
+figcaption {
+  margin-top: 8px;
+  padding: 0;
+}
+
+/* stylizacja div z najnowszymi wpisami */
+#newest {
+  background-color: #191d21;
+}
+
+#newest img:hover {
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  border-left: solid #000000 1px;
+  border-right: solid #000000 1px;
+}
+
+/* stylizacja div z wpisami */
+.entries {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 950px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+/* stylizacja div wpisu */
+.entry {
+  background-color: #222930;
+  padding: 10px;
+  text-align: justify;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+/* stylizacja div zdjęcia wpisu */
+.entryimg {
+  display: inline-block;
+  margin-left: 20px;
+  width: 110px;
+}
+
+/* stylizacja zdjęcia wpisu */
+.entryimg img {
+  height: 100px;
+  width: 100px;
+}
+
+/* stylizacja opisu wpisu */
+.entrytxt {
+  display: inline-block;
+  width: 750px;
+  font-size: 15px;
+}
+
+/* stylizacja div kontaktowego */
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 950px;
+  margin-bottom: 50px;
+}
+
+/* stylizacja paragrafu div kontaktowego */
+.contact p {
+  margin-bottom: 40px;
+}
+
+/* stylizacja przycisku do kontaktu */
+.bluebutton {
+  background-color: #1c74b2;
+  padding: 15px;
+  color: #efefef;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+.bluebutton:hover {
+  background-color: #196499;
+}
+
+/* stylizacja div z socialmedia */
+.socials {
+  width: 100%;
+  text-align: center;
+  background-color: #191d21;
+}
+
+.socialdivs {
+  width: 100%;
+  text-align: center;
+}
+
+.socialdivs a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* stylizacja socialmedia wraz ze zdarzeniami hover */
+.ig {
+  width: 250px;
+  height: 155px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ig:hover {
+  background-color: #ff8075;
+}
+
+.yt {
+  width: 250px;
+  height: 155px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yt:hover {
+  background-color: #d94348;
+}
+
+/* stylizacja div artykułu */
+.container {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* stylizacja artykułu */
+.west {
+  float: left;
+  /* display: inline-block; */
+  width: 100%;
+  /* padding: 20px; */
+  text-align: justyfy;
+}
+
+.zdj {
+  text-align: center;
+}
+
+.zdj a {
+  opacity: 0.9;
+}
+
+.zdj a:hover {
+  opacity: 5;
+}
+
+/* stylizacja h2 artykułu */
+.west h2 {
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  font-weight: 400;
+  color: #39a5f1;
+  margin-bottom: 20px;
+}
+
+/* stylizacja listy ul artykułu */
+.west ul {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.west ul>li:hover {
+  color: #1c74b2;
+}
+
+/* stylizacja paragrafu artykułu */
+.west p {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* stylizacja pochylonego tekstu artykułu*/
+.west i {
+  color: #ddd;
+}
+
+/* stylizacja div z prawą stroną formulaża */
+.east {
+  float: left;
+  /* display: inline-block; */
+  width: 300px;
+  /* padding: 20px; */
+}
+
+.east h2 {
+  font-size: 40px;
+}
+
+.east ul {
+  padding-left: 20px;
+}
+
+.east ul>li {
+  margin-bottom: 5px;
+}
+
+.gaz a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.gaz a:hover {
+  color: #39a5f1;
+}
+
+.map li:hover {
+  color: #39a5f1;
+}
+
+/* stylizacja zdjęcia(reklamy) */
+.east img {
+  margin-top: 15px;
+}
+
+.zdj1 a {
+  opacity: 0.9;
+}
+
+.zdj1 a:hover {
+  opacity: 5;
+}
+
+/* stylizacja artykułu w kontakcie */
+.west2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* stylizacja h2 w kontakcie */
+.west2 h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #39a5f1;
+}
+
+/* stylizacja pochylonego txt */
+.west2 i {
+  color: #53adfe;
+}
+
+/* stylizacja zdjęc w artykułach inne numery klasy foto to są wyjątki*/
+.foto {
+  width: 500px;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.foto1 {
+  width: 150px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto2 {
+  width: 650px;
+  height: 400px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.foto3 {
+  width: 220px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* wyłączona stylizacja zdarzenia hover w zsjęciach artykułów  */
+/* .foto:hover {
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  border-left: solid #000000 1px;
+  border-right: solid #000000 1px;
+}
+
+.foto1:hover {
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  border-left: solid #000000 1px;
+  border-right: solid #000000 1px;
+}
+
+.foto2:hover {
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  border-left: solid #000000 1px;
+  border-right: solid #000000 1px;
+}
+.foto3:hover {
+  border-top: solid #000000 1px;
+  border-bottom: solid #000000 1px;
+  border-left: solid #000000 1px;
+  border-right: solid #000000 1px;
+} */
+
+
+/* wyłączona stylizacja sekcji komentarzy */
+/* #newest2 {
+  background-color: #191d21;
+  width: 1000px;
+}
+.entry2 {
+  background-color: #222930;
+  text-align: justify;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.entries2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 900px;
+  text-align: center;
+}
+
+.entryimg2 {
+  display: inline-block;
+  width: 110px;
+}
+
+.entryimg2 img {
+  height: 90px;
+  width: 90px;
+  margin-left: 5px;
+}
+
+.entrytxt2 {
+  display: inline-block;
+  width: 760px;
+  font-size: 15px;
+} */
+
+/* stylizacja pojemnika main w zakładze pierwszy raz tutaj i aktualizacjach */
+.artykul {
+  text-align: center;
+}
+
+.artykul ul>li:hover {
+  cursor: default;
+}
+
+.artykul p {
+  color: white;
+  font-size: large;
+}
+
+/* stylizacja pojemnika main w artykułach */
+.artykul1 p {
+  color: white;
+  font-size: 16px;
+  word-spacing: 10px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.artykul1 b {
+  color: #53a8fe;
+  font-size: 20px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.artykul1 ul>li:hover {
+  cursor: default;
+}
+
+/* stylizacja pojemnika aktualizacji */
+.newest3 {
+  background-color: #191d21;
+  width: 100%;
+  /* height: auto; */
+  /* overflow-y: scroll; */
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newest3 h2 {
+  font-size: 30px;
+}
+
+.newest3 p {
+  margin: 0;
+}
+
+/* stylizacja div z informacją o autorach */
+.info {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
